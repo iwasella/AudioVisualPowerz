@@ -1,0 +1,19 @@
+# Ignore build output folders
+build/
+bin/
+
+# Ignore compiled executables (macOS/Linux)
+hello
+*.out
+
+# Ignore Windows executables
+*.exe
+
+# Ignore debug symbols & cache files
+*.SYM/
+*.dSYM/
+.DS_Store
+
+# Ignore VS Code configuration if automatically generated
+.vscode/
+*.json
