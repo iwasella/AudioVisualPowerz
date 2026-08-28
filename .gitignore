@@ -17,3 +17,6 @@ hello
 # Ignore VS Code configuration if automatically generated
 .vscode/
 *.json
+
+# Ignore VS Code local workspace settings 
+# .vscode/
