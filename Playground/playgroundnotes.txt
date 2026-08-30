@@ -1,0 +1,3 @@
+OpenGL - allows to change graphics and images
+GLFW - C library to render stuff with OpenGL
+GLAD - retreive location of functions and store in pointers for use easily
