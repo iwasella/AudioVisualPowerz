@@ -1,5 +1,5 @@
 # AudioVisualPowerz
-Exploring what C++ can do.
+Exploring GPU Programming & Audio Processing via C++.
 
 # Things to Consider
 
