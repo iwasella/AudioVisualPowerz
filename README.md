@@ -1,9 +1,10 @@
 # AudioVisualPowerz
 
-A C++ playground for GPU graphics and audio processing. The original mini project is an OpenGL audio visualizer.
+A C++ playground for GPU graphics and audio processing with OpenGL, GLFW, and macOS audio tools.
 
-## Audio Visualizer
+## Mini Projects
 
-See [Playground/AudioVisualizer](Playground/AudioVisualizer/README.md) for build instructions. It uses GLFW for the window, AVFoundation for audio, and an OpenGL shader to draw the animated waveform.
+- [Audio Visualizer](Playground/AudioVisualizer/README.md): animated audio waveform visualization.
+- [Live Audio Deck](Playground/LiveAudioDeck/README.md): crop and loop audio, adjust pitch and speed, and reverse playback.
 
-Learning notes are in [Playground/playground.md](Playground/playground.md).
+Each project has its own build instructions. Learning notes are in [Playground/playground.md](Playground/playground.md).

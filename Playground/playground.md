@@ -28,3 +28,10 @@ The visualizer uses an OpenGL **shader**: a small program that runs on the GPU. 
 
 The app is packaged as a `.app` bundle so macOS can recognize and open it like a regular desktop application. GLFW supplies the window inside that app; it does not package or launch the app by itself.
 
+# Mini Projects
+
+- [Audio Visualizer](AudioVisualizer/README.md): visualizes the audio waveform with OpenGL.
+- [Live Audio Deck](LiveAudioDeck/README.md): a DJ-style experiment with a selectable audio loop, pitch and speed controls, and reverse playback.
+
+The Live Audio Deck uses **AVAudioUnitTimePitch** to adjust pitch independently from playback speed. To reverse a crop, the program copies its decoded PCM samples into a new buffer in reverse order. The selected crop loops until playback is paused, which makes it easier to audition and manipulate like a DJ sample.
+
