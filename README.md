@@ -1,7 +1,9 @@
 # AudioVisualPowerz
-Exploring GPU Programming & Audio Processing via C++.
 
-# Things to Consider
+A C++ playground for GPU graphics and audio processing. The original mini project is an OpenGL audio visualizer.
 
-- Not using Manual GLFW Files. Using Homebrew instead
-- [Playground.md](https://github.com/iwasella/AudioVisualPowerz/blob/main/Playground/playground.md) is where I (sometimes) document what I'm learning.
+## Audio Visualizer
+
+See [Playground/AudioVisualizer](Playground/AudioVisualizer/README.md) for build instructions. It uses GLFW for the window, AVFoundation for audio, and an OpenGL shader to draw the animated waveform.
+
+Learning notes are in [Playground/playground.md](Playground/playground.md).
